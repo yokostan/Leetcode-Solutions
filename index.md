@@ -1,29 +1,30 @@
-## Leetcode #1 Two Sum
-Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+## Welcome to GitHub Pages
+You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
 
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
+Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.
 
-Example:
+Markdown
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-Given nums = [2, 7, 11, 15], target = 9,
+Syntax highlighted code block
 
-Because nums[0] + nums[1] = 2 + 7 = 9,
-return [0, 1].
+# Header 1
+## Header 2
+### Header 3
 
-My Solution:
-class Solution {
-public int[] twoSum(int[] nums, int target) {
-for (int i = 0;i< nums.length; i++) {
-for (int j = i + 1; j < nums.length; j++) {
-if (nums[i] + nums[j] == target)
-return new int[] { i, j };
-}
-}
-}
-throw new IllegalArgumentException("No two sum solution");
-}
+- Bulleted
+- List
 
-### Points:
+1. Numbered
+2. List
 
-int array return format, for multiple indexes: return new int[] {i, j}
-illegal argument exception statement
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+For more details see GitHub Flavored Markdown.
+
+Jekyll Themes
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your repository settings. The name of this theme is saved in the Jekyll _config.yml configuration file.
+
+Support or Contact
+Having trouble with Pages? Check out our documentation or contact support and we’ll help you sort it out.
